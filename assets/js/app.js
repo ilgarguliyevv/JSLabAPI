@@ -43,8 +43,10 @@ async function createTable() {
         table.append(tr);
     });
 }
-createTable();
 
+getdata.addEventListener("click", async (e) => {
+    createTable()
+})
 
 
 // let tbody = document.querySelector(".tbody")
